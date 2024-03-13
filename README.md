@@ -7,7 +7,7 @@
 4. Bonanda Siregar (09021382126135)
 5. Fauzan Abghi Patra (09021382126139)
 
-**Link tinkercad**
+**Link tinkercad :** 
 https://www.tinkercad.com/things/745lBe2jod2-fire-alarm-with-gas-and-temp-sensors-led-and-piezo-output?sharecode=asYaXC-M7e-IFXb-C9Hb8ErT26PwkpzqgLLdUcM1fOY
 
 **Hasil Rancangan Sensor**
