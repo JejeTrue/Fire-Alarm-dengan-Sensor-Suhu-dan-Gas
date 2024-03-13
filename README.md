@@ -17,3 +17,7 @@ https://www.tinkercad.com/things/745lBe2jod2-fire-alarm-with-gas-and-temp-sensor
 **Hasil Alat**
 
 ![WhatsApp Image 2024-03-13 at 11 34 15](https://github.com/JejeTrue/Fire-Alarm-dengan-Sensor-Suhu-dan-Gas/assets/93305164/7bdd21ab-1f85-45ad-b128-2c390ff69dd1)
+
+**Komponen-komponen yang digunakan**
+
+![WhatsApp Image 2024-02-29 at 09 47 53](https://github.com/JejeTrue/Fire-Alarm-dengan-Sensor-Suhu-dan-Gas/assets/93305164/d1cb4573-10a3-49e0-876c-82c7752aec3d)
