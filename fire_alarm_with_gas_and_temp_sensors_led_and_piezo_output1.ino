@@ -1,33 +1,38 @@
 float temp;
 float vout;
 float vout1;
-int LED = 13;
+int LED = 8;
 int gasSensor;
 int piezo = 7;
-void setup()
-{
+
+void setup() {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(LED, OUTPUT);
   pinMode(piezo, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(1200);
 }
 
-void loop()
-{
-  vout = analogRead(A1);
-  vout1 = (vout/1023)*5000;
+int readSensor() {
+  unsigned int sensorValue = analogRead(A1);
+  unsigned int outputValue = map(sensorValue, 0, 1023, 0, 255);
+  return outputValue;
+}
+
+void loop() {
+  vout = analogRead(A0);
+  vout1 = (vout/1023) * 5000;
   temp = (vout1 - 500) / 10;
-  gasSensor = analogRead(A0);
-  
+  gasSensor = readSensor();
+
   if (temp >= 80) {
     digitalWrite(LED, HIGH);
   }
   else {
     digitalWrite(LED, LOW);
   }
-  
-  if (gasSensor >= 100) {
+
+  if (gasSensor >= 65) {
     digitalWrite(piezo, HIGH);
   }
   else {
